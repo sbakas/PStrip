@@ -1,11 +1,14 @@
 # PStrip
-This repository contains the code for the following paper: (https://arxiv.org/abs/1711.05702)
+This repository contains the code for the following paper: (https://arxiv.org/abs/1711.05702, https://doi.org/10.1016/j.neuroimage.2018.04.073)
 ```
-@misc{Han2017Brain,
-    title        = {Brain Extraction from Normal and Pathological Images: A Joint PCA/Image-Reconstruction Approach},
-    author       = {X. Han and R. Kwitt and S. aylward and B. Menze and A. Asturias and P. Vespa and J. Van Horn and M. Niethammer},
-    year         = {2017},
-    howpublished = {arXiv:1711.05702}}
+@article{Han2018BrainNIMG,
+    title   = {Brain Extraction from Normal and Pathological Images: A Joint PCA/Image-Reconstruction Approach},
+    author  = {X. Han and R. Kwitt and S. Aylward and S. Bakas and B. Menze and A. Asturias and P. Vespa and J. Van Horn and M. Niethammer},
+    journal = {NeuroImage},
+    volume  = {176},
+    pages   = {431 - 445},
+    year    = {2018},
+    doi     = {https://doi.org/10.1016/j.neuroimage.2018.04.073}}
 ```
 We support use of docker. If you want to use the GPU for decomposition, please follow below to install nvidia-docker: https://github.com/NVIDIA/nvidia-docker  
 
